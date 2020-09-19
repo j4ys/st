@@ -6,7 +6,7 @@
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
 static char *font = "Fira Code:pixelsize=11:antialias=true:autohint=true";
-static char *font2[] = {"JoyPixels:pixelsize=13:antialias=true:autohint=true"};
+static char *font2[] = {"Emoji One:pixelsize=13:antialias=true:autohint=true"};
 static int borderpx = 2;
 
 /*
@@ -110,7 +110,7 @@ static const char *colorname[] = {
 	"cyan",
 	"white",
 
-	[255] = 0,
+	[255] = "#d4be98",
 
 	/* more colors can be added after 255 to use with DefaultXX * #cccccc */
 	"#cccccc",

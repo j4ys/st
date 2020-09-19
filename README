@@ -5,3 +5,13 @@ Simple terminal build
 Installation
 ------------
     make clean install
+
+Installation requirements
+-------------------------
+build-essentials
+
+Installation on Ubuntu:
+----------------------
+install libxft
+install libx11-dev
+
